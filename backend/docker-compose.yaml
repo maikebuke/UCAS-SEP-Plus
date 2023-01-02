@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  ddddocr:
+    image: donaldtrump/ddddocr:0.2
+    build:
+      context: .
+      dockerfile: ./ddddocr.Dockerfile
+    container_name: ddddocr
+    restart: unless-stopped
+    command: ["python", "/workspace/main.py"]
+    ports:
+      - 8101:8000
+    volumes:
+      - ./back-end-support/main.py:/workspace/main.py:ro
+    working_dir: /workspace
+    environment:
+      - AUTHOR=Maikebuke
+    cpus: 1
