@@ -7,7 +7,7 @@
 
 > Github: https://github.com/maikebuke/UCAS-SEP-Plus
 
-> Greasy Fork: https://greasyfork.org/zh-CN/users/548364-tylzh97
+> Greasy Fork: https://greasyfork.org/zh-CN/scripts/417867-ucas-sep-%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%95%99%E8%AF%84
 
 
 
